@@ -1,0 +1,26 @@
+Everything we do with Go like compiling, formatting and etc are taken care by the go tool
+
+GOPATH
+$ echo $GOPATH
+/home/vagrant/gohome
+
+$ go install hello
+Here go looks for a src/hello directory under GOPATH, that contains the source code for hello.
+
+$ go build hello
+Here the go tool just builds the hello source, it does not install it.
+
+$ go run ./my_code/main.go
+go run expects full path to a go file instead of a package
+
+$ go fmt hello
+src/hello/main.go
+go fmt formatts the package source to enfore the standard style
+
+$ go vet hello
+src/hello/main.go:29: arg i for printf verb %s of wrong type: main.stringSlice
+exit status 1
+/* Here we tried to print a string slice as a string for this example */
+
+$ go test hello
+$ go help test
