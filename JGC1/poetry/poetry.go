@@ -39,6 +39,8 @@ func (p Poem) Stats() (numVowels, numConsonants, numPuncs int) {
 				switch r {
 				case 'a', 'e', 'i', 'o', 'u':
 					numVowels++
+				/* we could instead use IsPunct method from unicode package to check for punctuations
+				   godoc unicode IsPunct */
 				case ',', ' ', '!':
 					numPuncs++
 				default:
