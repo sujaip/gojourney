@@ -5,6 +5,10 @@ import (
 	"testing"
 )
 
+/* We could also use t.Errorf in place of t.Fatalf in the test suite
+   t.Errorf prints the error message and continues the testing
+   t.Fatalf prints the message and terminates the testing */
+
 func TestNumStanzas(t *testing.T) {
 	p := Poem{{"And from my pillow, looking forth by light",
 		"Of moon or favouring stars, I could behold",
