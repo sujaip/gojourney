@@ -19,3 +19,6 @@ func main() {
 	fmt.Println(shouter.Shout("Hello, World!"))
 	fmt.Println(eecummings.Simplify("Hello, World!"))
 }
+
+/* go run main.go -version
+   go build -ldflags="-X main.Version=2.0.0" */
