@@ -29,4 +29,8 @@ func main() {
 	fmt.Println(ls.String())
 
 	var _ yelling.Yeller = ls
+
+	// fmt.Printf("%d\n", ls.Len())
+	// We will get the below run time error if we uncomment this line
+	// invalid memory address or nil pointer dereference
 }
