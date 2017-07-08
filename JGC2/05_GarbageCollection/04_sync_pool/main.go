@@ -12,6 +12,12 @@ func makeBuffer() interface{} {
 	return make([]byte, rand.Intn(5000000)+5000000)
 }
 
+/*
+NOTE:
+In this case the heap grows steadily up to the size of the pool of 200 buffers and
+stabilises at that level avoiding frequent changes and garbage collection like in the previous case
+*/
+
 func main() {
 	pool := make([][]byte, 200)
 	var spare sync.Pool
