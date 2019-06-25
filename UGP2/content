@@ -1,0 +1,128 @@
+Ultimate Go Programming, Second Edition : William Kennedy
+
+01.Design Guidelines [00:43:52]
+1.0:Topics: 00:46
+1.1:Prepare Your Mind 14:27
+1.2:Productivity versus Performance 04:12
+1.3:Correctness versus Performance 05:35
+1.4:Code Reviews 18:52
+
+02.Language Syntax [02:05:40]
+2.0:Topics 00:49
+2.1:Variables 16:27
+2.2:Struct Types 23:28
+2.3:Pointers-Part 1 Pass by Value 15:45
+2.3:Pointers-Part 2 Sharing Data 10:35
+2.3:Pointers-Part 3 Escape Analysis 20:20
+2.3:Pointers-Part 4 Stack Growth 07:32
+2.3:Pointers-Part 5 Garbage Collection 15:14
+2.4:Constants 15:30
+
+03.Data Structures [01:50:02]
+3.0:Topics 00:41
+3.1:Data-Oriented Design 04:53
+3.2:Arrays-Part 1 Mechanical Sympathy 33:11
+3.2:Arrays-Part 2 Semantics 16:43
+3.3:Slices-Part 1 Declare and Length and Reference Types 08:46
+3.3:Slices-Part 2 Appending Slices 15:32
+3.3:Slices-Part 3 Taking Slices of Slices 11:45
+3.3:Slices-Part 4 Slices and References 05:52
+3.3:Slices-Part 5 Range Mechanics 04:35
+3.4:Maps 08:04
+
+04.Decoupling [01:34:35]
+4.0:Topics 00:56
+4.1:Methods-Part 1 Declare & Receiver Behavior 10:45
+4.1:Methods-Part 2 Value & Pointer Semantics 15:35
+4.1:Methods-Part 3 Function / Method Variable 13:40
+4.2:Interfaces-Part 1 Polymorphism 20:12
+4.2:Interfaces-Part 2 Method Sets and Address of Values 11:52
+4.2:Interfaces-Part 3 Storage by Value 05:35
+4.3:Embedding 07:31
+4.4:Exporting 08:29
+
+5.Composition [01:18:46]
+5.0:Topics 01:00
+5.1:Grouping Types 12:38
+5.2:Decoupling-Part 1 06:59
+5.2:Decoupling-Part 2 18:25
+5.2:Decoupling-Part 3 14:37
+5.3:Conversion and Assertions 09:03
+5.4:Interface Pollution 06:46
+5.5:Mocking 05:53
+5.6:Design Guidelines 03:25
+
+6.Error Handling [00:51:25]
+6.0:Topics 00:52
+6.1:Default Error Values 11:34
+6.2:Error Variables 02:41
+6.3:Type as Context 07:04
+6.4:Behavios as Context 09:50
+6.5:Find the Bug 08:53
+6.6:Wrapping Errors 14:31
+
+7.Packaging [00:33:40]
+7.0:Topics 00:53
+7.1:Language Mechanics 08:32
+7.2:Design Guidelines 05:49
+7.3:Package-Oriented Design 18:26
+
+08.Goroutines [01:09:55]
+8.0:Topics 00:29
+8.1:OS Scheduler Mechanics 29:00
+8.2:Go Scheduler Mechanics 20:42
+8.3:Creating Goroutines 19:44
+
+09.Data Races [00:56:44]
+9.0:Topics 00:53
+9.1:Cache Coherency and False Sharing 12:40
+9.2:Synchronization with Atomic Functions 11:30
+9.3:Synchronization with Mutexes 14:38
+9.4:Race Detection 04:48
+9.5:Map Data Race 04:01
+9.6:Interface-Based Race Condition 08:14
+
+10.Channels [01:17:00]
+10.0:Topics 00:43
+10.1:Signaling Semantics 17:50
+10.2:Basic Patterns-Part 1 Wait for Task 11:12
+10.2:Basic Patterns-Part 2 Wait for Result 04:20
+10.2:Basic Patterns-Part 1 Wait for Finished 06:00
+10.3:Pooling Pattern 06:23
+10.4:Fan Out Pattern-Part 1 08:38
+10.4:Fan Out Pattern-Part 2 06:24
+10.5:Drop Pattern 07:15
+10.6:Cancellation Pattern 08:15
+
+11.Concurrency Patterns [00:51:38]
+11.0:Topics 00:34
+11.1:Context-Part 1 16:23
+11.1:Context-Part 2 11:24
+11.2:Failure Detection 23:17
+
+12.Testing [00:52:33]
+12.0:Topics 00:41
+12.1:Basic Unit Testing 13:55
+12.2:Table Unit Testing 03:19
+12.3:Mocking Web Server Response 06:59
+12.4:Testing Internal Endpoints 07:23
+12.5:Example Tests 09:56
+12.6:Sub Tests 05:36
+12.7:Code Coverage 04:44
+
+13.Benchmarking [00:19:31]
+13.0:Topics 00:47
+13.1:Basic Benchmarking 07:27
+13.2:Sub Benchmarks 03:36
+13.3:Validate Benchmarks 07:41
+
+14.Profiling and Tracing [02:07:19]
+14.0:Topics 00:55
+14.1:Profiling Guidelines 10:48
+14.2:Stack Traces 09:00
+14.3:Micro Level Optimization 31:18
+14.4:Part 1 Micro Level Optimization: GODEBUG Tracing 12:49
+14.4:Part 2 Micro Level Optimization: Memory Profiling 16:07
+14.4:Part 3 Micro Level Optimization: Tooling Changes 06:04
+14.4:Part 4 Micro Level Optimization: CPU Profiling 05:53
+14.5:Execution Tracing 34:25
